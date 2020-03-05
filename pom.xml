@@ -43,7 +43,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>docker-first</finalName>
+		<finalName>docker-app-with-link</finalName>
 	</build>
 
 </project>
