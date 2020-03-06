@@ -12,7 +12,7 @@ public class HelloWorldController {
     public ResponseEntity<String> home() {
 
         RestTemplate restTemplate = new RestTemplate();
-        String fooResourceUrl = "http://localhost:5051/1";
+        String fooResourceUrl = "http://docker-app-with-db-controller:5051/1";
         ResponseEntity<String> response = restTemplate.getForEntity(fooResourceUrl, String.class);
         return response;
     }
